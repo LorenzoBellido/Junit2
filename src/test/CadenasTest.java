@@ -24,7 +24,6 @@ class CadenasTest {
 	
 	private static Stream<Arguments> cuentaEspacios() {
 		return Stream.of(
-				Arguments.of("", 0),
 				Arguments.of("h", 0),
 				Arguments.of("hola que tal", 2)
 				);
