@@ -37,6 +37,6 @@ public class FuncionesRecursivas {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(fibonacci(7));
+		System.out.println(fibonacci(1));
 	}
 }

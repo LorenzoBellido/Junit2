@@ -2,7 +2,7 @@ package clases;
 
 public class Tablas {
 
-	static boolean esMagica(int tabla[][]) {
+	public static boolean esMagica(int tabla[][]) {
 		boolean magica = true;
 		int suma=0;
 		int nuevaSuma=0;
@@ -42,7 +42,7 @@ public class Tablas {
 	}
 	
 	public static int[][] gira90(int tablaInicio[][]){
-		int[][] tablaFinal = null;
+		int[][] tablaFinal =  null;
 		
 		if(tablaInicio != null) {
 			if(tablaInicio.length == tablaInicio[0].length) {
